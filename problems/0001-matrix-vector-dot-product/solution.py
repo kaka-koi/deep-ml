@@ -6,7 +6,6 @@ def matrix_dot_vector(a: list[list[int|float]], b: list[int|float]) -> list[int|
 		return -1
 	
 	result=[]
-
     for matrix_i in a:
 		vector_index=0
 		dot_value=0
